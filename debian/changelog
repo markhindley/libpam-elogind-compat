@@ -1,0 +1,5 @@
+libpam-elogind-compat (1.0) experimental; urgency=low
+
+  * Initial version.
+
+ -- Mark Hindley <mark@hindley.org.uk>  Thu, 08 Nov 2018 08:10:37 +0000

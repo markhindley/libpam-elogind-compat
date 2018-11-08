@@ -1,0 +1,20 @@
+Source: libpam-elogind-compat
+Section: misc
+Priority: optional
+Maintainer: Mark Hindley <mark@hindley.org.uk>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.2.1
+
+Package: libpam-elogind-compat
+Architecture: all
+Depends: libpam-elogind, ${misc:Depends}
+Provides: libpam-systemd
+Description: Compatibility package for testing integration of libpam-elogind into Debian
+ This package allows libpam-elogind to satisfy libpam-systemd dependencies for
+ packages which have not yet been updated.
+ .
+ Please note that libpam-elogind doesn't provide systemd --user. If you require
+ that functionality you must install the real libpam-systemd.
+ .
+ For testing only, this can be removed from Debian once packages have been
+ updated to depend on libpam-elogind directly.

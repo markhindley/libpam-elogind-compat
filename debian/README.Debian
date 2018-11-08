@@ -1,0 +1,14 @@
+libpam-elogind-compat for Debian
+
+This is a compatibility package to ease the integration and testing of
+libpam-elogind into Debian.
+
+It allows libpam-elogind to satisfy packages which depend on libpam-systemd.
+
+Please note that libpam-elogind only provides a subset of the features of
+libpam-systemd. In particular, if you require system --user instances then you
+must install the real libpam-systemd package.
+
+Once packages depend on libpam-elogind directly, this package should be removed.
+
+ -- Mark Hindley <mark@hindley.org.uk>, Thu,  8 Nov 2018 11:10:35 +0000
