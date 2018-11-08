@@ -16,6 +16,6 @@ Description: Compatibility package for testing integration of libpam-elogind int
  Please note that libpam-elogind doesn't provide systemd --user. If you require
  that functionality you must install the real libpam-systemd.
  .
- On Debian systems, this entire package is for for testing only.
+ On Debian systems, this entire package is for testing only.
  It will never be in a Debian release.  It is provided in Debian
  experimental to make testing easier.
