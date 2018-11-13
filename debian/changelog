@@ -1,6 +1,7 @@
-libpam-elogind-compat (1.0) experimental; urgency=low
+libpam-elogind-compat (1.0) experimental; urgency=medium
 
   * Initial version.  [Mark Hindley]
   * Mailing list is Maintainer; add myslf as Uploader.  [Ian Jackson]
+  * changelog: update urgency to `medium' which is usual now.  [Ian Jackson]
 
  -- Ian Jackson <ijackson@chiark.greenend.org.uk>  Tue, 13 Nov 2018 14:35:46 +0000
