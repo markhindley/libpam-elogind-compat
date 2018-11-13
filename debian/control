@@ -1,7 +1,9 @@
 Source: libpam-elogind-compat
 Section: misc
 Priority: optional
-Maintainer: Mark Hindley <mark@hindley.org.uk>
+Maintainer: Debian Ecosystem Init Diversity Team <debian-init-diversity@chiark.greenend.org.uk>
+Uploaders: Mark Hindley <mark@hindley.org.uk>,
+           Ian Jackson <ijackson@chiark.greenend.org.uk>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.2.1
 
