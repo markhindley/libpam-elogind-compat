@@ -12,8 +12,8 @@ Architecture: all
 Depends: libpam-elogind, ${misc:Depends}
 Provides: libpam-systemd
 Description: Compatibility package for testing integration of libpam-elogind into Debian
- This package allows libpam-elogind to satisfy libpam-systemd dependencies for
- packages which have not yet been updated.
+ This is an empty dependency package which allows libpam-elogind to satisfy
+ libpam-systemd dependencies for packages which have not yet been updated.
  .
  Please note that libpam-elogind doesn't provide systemd --user. If you require
  that functionality you must install the real libpam-systemd.
