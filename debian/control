@@ -4,13 +4,15 @@ Priority: optional
 Maintainer: Debian Ecosystem Init Diversity Team <debian-init-diversity@chiark.greenend.org.uk>
 Uploaders: Mark Hindley <mark@hindley.org.uk>,
            Ian Jackson <ijackson@chiark.greenend.org.uk>
-Build-Depends: debhelper (>= 11)
+Build-Depends: debhelper (>= 11), dh-exec (>=0.3)
 Standards-Version: 4.2.1
 
 Package: libpam-elogind-compat
-Architecture: all
+Architecture: any
+Multi-Arch: same
 Depends: libpam-elogind, ${misc:Depends}
 Provides: libpam-systemd
+Replaces: libpam-systemd
 Description: Compatibility package for testing integration of libpam-elogind into Debian
  This is an empty dependency package which allows libpam-elogind to satisfy
  libpam-systemd dependencies for packages which have not yet been updated.
