@@ -1,4 +1,13 @@
-libpam-elogind-compat (1.1) experimental; urgency=medium
+libpam-elogind-compat (1.2) experimental; urgency=medium
+
+  * Add compaibility symlink for pam_systemd.so.
+  * Conflict and Replace libpam_systemd.
+  * Reword long description so lintian override for empty-binary-package
+    is not required.
+
+ -- Mark Hindley <mark@hindley.org.uk>  Wed, 14 Nov 2018 08:36:54 +0000
+
+libpam-elogind-compat (1.1) experimental; urgency=low
 
   * Add lintian override for `empty-binary-package', which is expected.
 
